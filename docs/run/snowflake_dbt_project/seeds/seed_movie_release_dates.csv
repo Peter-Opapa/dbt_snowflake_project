@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table MOVIELENS.DEV.seed_movie_release_dates (movie_id integer,release_date date)
+  ;
+    -- dbt seed --
+    
+            insert into MOVIELENS.DEV.seed_movie_release_dates (movie_id, release_date) values
+            (%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s)
+        
+
+;
+  
