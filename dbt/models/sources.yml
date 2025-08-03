@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: movielens
+    schema: raw
+    description: "Tables from the Movielens database, schema raw"
+    tables:
+      - name: r_movies
+        identifier: raw_movies
+        description: "Movies table"
+      - name: r_ratings
+        identifier: raw_ratings
+        description: "User ratings for movies"
+      - name: r_tags
+        identifier: raw_tags
+        description: "User-generated tags for movies"
+      - name: r_genome_tags
+        identifier: raw_genometags
+        description: "List of genome tags"
+      - name: r_genome_scores
+        identifier: raw_genomescores
+        description: "Relevance of genome tags to movies"
+      - name: r_links
+        identifier: raw_links
+        description: "Links to external movie data sources"
