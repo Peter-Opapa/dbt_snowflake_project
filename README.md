@@ -5,7 +5,7 @@
 
 A comprehensive data transformation pipeline that processes the MovieLens 20M dataset to create analytics-ready data models for movie recommendation systems and user behavior analysis.
 
-![Project Architecture](project_architecture.png)
+![Project Architecture](https://github.com/Peter-Opapa/dbt_snowflake_project/blob/main/images/project_architecture.png)
 
 ## 🏗️ Data Pipeline Architecture
 
@@ -145,3 +145,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [MovieLens Dataset](https://grouplens.org/datasets/movielens/) by GroupLens Research
 - [dbt](https://www.getdbt.com/) for the amazing transformation framework
 - [Snowflake](https://www.snowflake.com/) for the cloud data platform
+
